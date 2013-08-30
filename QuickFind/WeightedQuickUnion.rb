@@ -1,16 +1,25 @@
-class QuickUnion
+class WeightedQuickUnion
 
   # O(n)
   def initialize size=10
     @keys = (0..size - 1).to_a
+    @weights = Array.new size,0
   end
 
   # O(n)
   def union a,b
-    @keys[a] = root b
+    rootA = root a
+    rootB = root b
+    if @weights[rootA] < @weights[rootB]
+      @keys[rootA] = rootB
+      @weights[rootB] += @weights[rootA]
+    else
+      @keys[rootB] = rootA
+      @weights[rootA] += @weights[rootB]
+    end
   end
 
-  # O(n)
+  # O(log(n))
   def connected? a,b
     root(a) == root(b)
   end
@@ -28,7 +37,7 @@ class QuickUnion
   end
 end
 
-finder = QuickUnion.new
+finder = WeightedQuickUnion.new
 finder.union 1,2
 finder.union 3,4
 finder.union 5,6
