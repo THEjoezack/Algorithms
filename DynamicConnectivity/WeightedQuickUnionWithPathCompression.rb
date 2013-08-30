@@ -1,4 +1,4 @@
-class WeightedQuickUnion
+class WeightedQuickUnionWithPathCompression
 
   # O(n)
   def initialize size=10
@@ -6,7 +6,7 @@ class WeightedQuickUnion
     @weights = Array.new size,0
   end
 
-  # O(n)
+  # O(log(n))
   def union a,b
     rootA = root a
     rootB = root b
@@ -31,13 +31,15 @@ class WeightedQuickUnion
 
   private
 
-  # O(n)
+  # O(log(n))
   def root n
-    @keys[n] == n ? n : root(@keys[n])
+    return n if @keys[n] == n
+    @keys[n] = root(@keys[n])
+    @keys[n]
   end
 end
 
-finder = WeightedQuickUnion.new
+finder = WeightedQuickUnionWithPathCompression.new
 finder.union 1,2
 finder.union 3,4
 finder.union 5,6
