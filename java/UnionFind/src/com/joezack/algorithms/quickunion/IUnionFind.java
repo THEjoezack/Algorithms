@@ -7,7 +7,7 @@ package com.joezack.algorithms.quickunion;
  * Time: 7:49 AM
  * To change this template use File | Settings | File Templates.
  */
-public interface IQuickUnion {
+public interface IUnionFind {
     int[] getKeys();
 
     void union(int a, int b);

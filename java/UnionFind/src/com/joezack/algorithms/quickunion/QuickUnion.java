@@ -1,8 +1,8 @@
 package com.joezack.algorithms.quickunion;
 
-public class QuickFind extends UnionFind implements IUnionFind {
+public class QuickUnion extends UnionFind implements IUnionFind {
 
-    public QuickFind(int size) {
+    public QuickUnion(int size) {
         initialize(size);
     }
 
