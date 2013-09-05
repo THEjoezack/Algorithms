@@ -11,35 +11,46 @@ public class Percolation implements IPercolation {
         Full
     }
 
-    public Percolation(int n, IGridAdapter gridAdapter) {
-        size = n;
-        adapter = gridAdapter;
+    public Percolation(int size, IGridAdapter adapter, IUnionFind finder) {
+        this.size = size;
+        this.adapter = adapter;
+        this.finder = finder;
+
         sites = new status[size * size];
         initializeSites();
     }
 
     @Override
-    public void open(int i, int j) {
+    public void open(int i, int j) throws IllegalArgumentException {
         int index = adapter.coordinatesToIndex(i, j);
+        if(index == adapter.InvalidIndex)
+        {
+            throw new IllegalArgumentException("Invalid index given: " + i + " " + j);
+        }
+
         if(sites[index] == status.Open) {
             return;
         }
 
         sites[index] = status.Open;
-        openNeighbor(index, i - 1, j);
-        openNeighbor(index, i + 1, j);
-        openNeighbor(index, i, j - 1);
-        openNeighbor(index, i, j + 1);
+        connectNeighbor(index, i - 1, j);
+        connectNeighbor(index, i + 1, j);
+        connectNeighbor(index, i, j - 1);
+        connectNeighbor(index, i, j + 1);
     }
 
     @Override
-    public boolean isOpen(int i, int j) {
+    public boolean isOpen(int i, int j) throws IllegalArgumentException {
         int index = adapter.coordinatesToIndex(i,j);
+        if(index == adapter.InvalidIndex)
+        {
+            throw new IllegalArgumentException("Invalid index given: " + i + " " + j);
+        }
         return sites[index] == status.Open;
     }
 
     @Override
-    public boolean isFull(int i, int j) {
+    public boolean isFull(int i, int j) throws IllegalArgumentException {
         return !isOpen(i,j);
     }
 
@@ -50,7 +61,10 @@ public class Percolation implements IPercolation {
         int lastSite = size * size;
         for(int topIndex = 0; topIndex < size; topIndex++) {
            for(int bottomIndex = bottomRow; bottomIndex < lastSite; bottomIndex++) {
-                return finder.connected(topIndex, bottomIndex);
+               if(finder.connected(topIndex, bottomIndex))
+               {
+                   return true;
+               }
             }
         }
         return false;
@@ -63,15 +77,14 @@ public class Percolation implements IPercolation {
         }
     }
 
-    private void openNeighbor(int index, int i, int j) {
-        int neighbor = adapter.coordinatesToIndex(i,j);
-        openNeighbor(index, neighbor);
-    }
+    private void connectNeighbor(int index, int i, int j) throws IllegalArgumentException {
+        if(index == adapter.InvalidIndex) {
+            throw new IllegalArgumentException("Index is invalid");
+        }
 
-    private void openNeighbor(int index, int neighbor) {
-        if(neighbor != adapter.InvalidIndex) {
-            sites[neighbor] = status.Open;
-            finder.union(index, neighbor);
+        int neighborIndex = adapter.coordinatesToIndex(i,j);
+        if(neighborIndex != adapter.InvalidIndex && isOpen(i,j)) {
+            finder.union(index, neighborIndex);
         }
     }
 

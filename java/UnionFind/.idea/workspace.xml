@@ -100,14 +100,15 @@
     <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/facelets_jsf_core.taglib.xml" changelist="e429c68c-cef8-41a6-b322-00dbeb57c55a" time="1378293532319" ignored="false" />
     <file path="/QuickFind.java" changelist="e429c68c-cef8-41a6-b322-00dbeb57c55a" time="1378296219137" ignored="false" />
     <file path="/QuickFindTest.java" changelist="e429c68c-cef8-41a6-b322-00dbeb57c55a" time="1378296085640" ignored="false" />
-    <file path="/fragment.java" changelist="e429c68c-cef8-41a6-b322-00dbeb57c55a" time="1378380908642" ignored="false" />
+    <file path="/fragment.java" changelist="e429c68c-cef8-41a6-b322-00dbeb57c55a" time="1378384189141" ignored="false" />
     <file path="/QuickUnion.java" changelist="e429c68c-cef8-41a6-b322-00dbeb57c55a" time="1378296309267" ignored="false" />
     <file path="/UnionFind.java" changelist="e429c68c-cef8-41a6-b322-00dbeb57c55a" time="1378295688143" ignored="false" />
-    <file path="/Percolation.java" changelist="e429c68c-cef8-41a6-b322-00dbeb57c55a" time="1378380961412" ignored="false" />
+    <file path="/Percolation.java" changelist="e429c68c-cef8-41a6-b322-00dbeb57c55a" time="1378384559683" ignored="false" />
     <file path="/IPercolation.java" changelist="e429c68c-cef8-41a6-b322-00dbeb57c55a" time="1378347600612" ignored="false" />
     <file path="/GridAdapter.java" changelist="e429c68c-cef8-41a6-b322-00dbeb57c55a" time="1378381574212" ignored="false" />
     <file path="/GridAdapterTest.java" changelist="e429c68c-cef8-41a6-b322-00dbeb57c55a" time="1378381764867" ignored="false" />
     <file path="/UnionFindTest.java" changelist="e429c68c-cef8-41a6-b322-00dbeb57c55a" time="1378381053043" ignored="false" />
+    <file path="/PercolationTest.java" changelist="e429c68c-cef8-41a6-b322-00dbeb57c55a" time="1378383975316" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +173,7 @@
       <file leaf-file-name="UnionFindTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/UnionFindTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="16" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,7 +184,7 @@
       <file leaf-file-name="QuickFindTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/QuickFindTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="22" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+            <state line="4" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,36 +195,16 @@
       <file leaf-file-name="Percolation.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/joezack/algorithms/quickunion/Percolation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="92" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+            <state line="67" column="0" selection-start="1984" selection-end="1984" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GridAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/joezack/algorithms/quickunion/GridAdapter.java">
+      <file leaf-file-name="PercolationTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/PercolationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="52" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GridAdapterTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/GridAdapterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="45" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.93982303">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickUnionTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/QuickUnionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="22" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+            <state line="7" column="20" selection-start="187" selection-end="187" vertical-scroll-proportion="0.21061946">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -249,13 +230,14 @@
         <option value="$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/QuickUnion.java" />
         <option value="$PROJECT_DIR$/src/com/joezack/algorithms/quickunion/IPercolation.java" />
         <option value="$PROJECT_DIR$/src/com/joezack/algorithms/quickunion/GridAdapterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/QuickFindTest.java" />
-        <option value="$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/QuickUnionTest.java" />
         <option value="$PROJECT_DIR$/src/com/joezack/algorithms/quickunion/IGridAdapter.java" />
-        <option value="$PROJECT_DIR$/src/com/joezack/algorithms/quickunion/Percolation.java" />
-        <option value="$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/UnionFindTest.java" />
         <option value="$PROJECT_DIR$/src/com/joezack/algorithms/quickunion/GridAdapter.java" />
         <option value="$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/GridAdapterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/UnionFindTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/QuickFindTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/QuickUnionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/PercolationTest.java" />
+        <option value="$PROJECT_DIR$/src/com/joezack/algorithms/quickunion/Percolation.java" />
       </list>
     </option>
   </component>
@@ -352,7 +334,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/lib" />
@@ -371,69 +353,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="test.com.joezack.algorithms.quickunion" />
       <recent name="com.joezack.algorithms.quickunion" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.joezack.algorithms.quickunion" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GridAdapterTest">
-    <configuration default="false" name="QuickFindTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.com.joezack.algorithms.quickunion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="UnionFind" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.com.joezack.algorithms.quickunion" />
-      <option name="MAIN_CLASS_NAME" value="test.com.joezack.algorithms.quickunion.QuickFindTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="QuickFindTest.connectReplacesAWithB" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.com.joezack.algorithms.quickunion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="UnionFind" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.com.joezack.algorithms.quickunion" />
-      <option name="MAIN_CLASS_NAME" value="test.com.joezack.algorithms.quickunion.QuickFindTest" />
-      <option name="METHOD_NAME" value="connectReplacesAWithB" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.PercolationTest">
     <configuration default="false" name="QuickUnionTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -515,6 +442,68 @@
       <envs />
       <patterns />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PercolationTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.com.joezack.algorithms.quickunion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="UnionFind" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.com.joezack.algorithms.quickunion" />
+      <option name="MAIN_CLASS_NAME" value="test.com.joezack.algorithms.quickunion.PercolationTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PercolationTest.horizontalPercolates" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.com.joezack.algorithms.quickunion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="UnionFind" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.com.joezack.algorithms.quickunion" />
+      <option name="MAIN_CLASS_NAME" value="test.com.joezack.algorithms.quickunion.PercolationTest" />
+      <option name="METHOD_NAME" value="horizontalPercolates" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -610,19 +599,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.QuickFindTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.QuickFindTest.connectReplacesAWithB" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.QuickUnionTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.test.com.joezack.algorithms.quickunion in UnionFind" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GridAdapterTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.QuickUnionTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.test.com.joezack.algorithms.quickunion in UnionFind" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.GridAdapterTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PercolationTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PercolationTest.horizontalPercolates" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GridAdapterTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.test.com.joezack.algorithms.quickunion in UnionFind" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.QuickUnionTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.QuickFindTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.QuickFindTest.connectReplacesAWithB" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PercolationTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PercolationTest.horizontalPercolates" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GridAdapterTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.test.com.joezack.algorithms.quickunion in UnionFind" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.QuickUnionTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -650,7 +639,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39954597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -762,42 +751,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/joezack/algorithms/quickunion/IPercolation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/joezack/algorithms/quickunion/IGridAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/joezack/algorithms/quickunion/Percolation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="92" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/QuickUnionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/QuickFindTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,9 +765,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/UnionFindTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/GridAdapterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
+        <state line="52" column="45" selection-start="1471" selection-end="1471" vertical-scroll-proportion="1.4743363">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -819,14 +776,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/joezack/algorithms/quickunion/GridAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="52" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+        <state line="7" column="52" selection-start="168" selection-end="168" vertical-scroll-proportion="0.21061946">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/GridAdapterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/QuickFindTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="45" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.93982303">
+        <state line="4" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/UnionFindTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/joezack/algorithms/quickunion/IPercolation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="55" selection-start="92" selection-end="140" vertical-scroll-proportion="-0.02300885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/QuickUnionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="0.12035398">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.7.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.7.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.35564855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/joezack/algorithms/quickunion/Percolation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="0" selection-start="1984" selection-end="1984" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/joezack/algorithms/quickunion/PercolationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="20" selection-start="187" selection-end="187" vertical-scroll-proportion="0.21061946">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
