@@ -21,11 +21,11 @@ public class Percolation implements IPercolation {
     }
 
     @Override
-    public void open(int i, int j) throws IllegalArgumentException {
+    public void open(int i, int j) throws IndexOutOfBoundsException {
         int index = adapter.coordinatesToIndex(i, j);
         if(index == adapter.InvalidIndex)
         {
-            throw new IllegalArgumentException("Invalid index given: " + i + " " + j);
+            throw new IndexOutOfBoundsException("Invalid index given: " + i + " " + j);
         }
 
         if(sites[index] == status.Open) {
@@ -40,17 +40,17 @@ public class Percolation implements IPercolation {
     }
 
     @Override
-    public boolean isOpen(int i, int j) throws IllegalArgumentException {
+    public boolean isOpen(int i, int j) throws IndexOutOfBoundsException {
         int index = adapter.coordinatesToIndex(i,j);
         if(index == adapter.InvalidIndex)
         {
-            throw new IllegalArgumentException("Invalid index given: " + i + " " + j);
+            throw new IndexOutOfBoundsException("Invalid index given: " + i + " " + j);
         }
         return sites[index] == status.Open;
     }
 
     @Override
-    public boolean isFull(int i, int j) throws IllegalArgumentException {
+    public boolean isFull(int i, int j) throws IndexOutOfBoundsException {
         return !isOpen(i,j);
     }
 
@@ -77,9 +77,9 @@ public class Percolation implements IPercolation {
         }
     }
 
-    private void connectNeighbor(int index, int i, int j) throws IllegalArgumentException {
+    private void connectNeighbor(int index, int i, int j) throws IndexOutOfBoundsException {
         if(index == adapter.InvalidIndex) {
-            throw new IllegalArgumentException("Index is invalid");
+            throw new IndexOutOfBoundsException("Index is invalid");
         }
 
         int neighborIndex = adapter.coordinatesToIndex(i,j);

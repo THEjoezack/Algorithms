@@ -25,7 +25,7 @@ public class PercolationTest {
         Assert.assertEquals("Self should be opened",expected,actual);
     }
 
-    @Test(expected=IllegalArgumentException.class)
+    @Test(expected=IndexOutOfBoundsException.class)
     public void openInvalidIndex() {
         target.open(size,size);
     }
