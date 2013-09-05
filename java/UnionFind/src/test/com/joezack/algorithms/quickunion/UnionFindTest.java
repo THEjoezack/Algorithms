@@ -6,8 +6,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
-import com.joezack.algorithms.quickunion.QuickFind;
-
 @RunWith(JUnit4.class)
 public abstract class UnionFindTest {
 
