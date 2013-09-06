@@ -1,6 +1,5 @@
-package test.com.joezack.algorithms.quickunion;
+package com.joezack.algorithms.percolation;
 
-import com.joezack.algorithms.percolation.*;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

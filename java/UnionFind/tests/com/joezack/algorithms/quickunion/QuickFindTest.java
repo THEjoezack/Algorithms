@@ -1,6 +1,5 @@
-package test.com.joezack.algorithms.quickunion;
+package com.joezack.algorithms.quickunion;
 
-import com.joezack.algorithms.quickunion.QuickFind;
 import org.junit.Before;
 
 public class QuickFindTest extends UnionFindTest {

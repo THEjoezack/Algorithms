@@ -1,6 +1,5 @@
-package test.com.joezack.algorithms.quickunion;
+package com.joezack.algorithms.quickunion;
 
-import com.joezack.algorithms.quickunion.IUnionFind;
 import org.junit.Assert;
 import org.junit.Test;
 
