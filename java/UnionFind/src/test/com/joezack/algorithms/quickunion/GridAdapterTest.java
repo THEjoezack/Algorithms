@@ -1,7 +1,6 @@
 package test.com.joezack.algorithms.quickunion;
 
-import com.joezack.algorithms.quickunion.GridAdapter;
-import com.joezack.algorithms.quickunion.IGridAdapter;
+import com.joezack.algorithms.percolation.*;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

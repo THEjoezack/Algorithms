@@ -1,4 +1,6 @@
-package com.joezack.algorithms.quickunion;
+package com.joezack.algorithms.percolation;
+
+import com.joezack.algorithms.quickunion.IUnionFind;
 
 public class Percolation implements IPercolation {
     private int size;

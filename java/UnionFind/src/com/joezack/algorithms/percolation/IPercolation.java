@@ -1,4 +1,4 @@
-package com.joezack.algorithms.quickunion;
+package com.joezack.algorithms.percolation;
 
 public interface IPercolation {
 
