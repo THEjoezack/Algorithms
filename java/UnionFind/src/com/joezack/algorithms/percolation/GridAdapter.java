@@ -16,6 +16,16 @@ public class GridAdapter implements IGridAdapter {
         return (j * size) + i;
     }
 
+    @Override
+    public int indexToI(int index) {
+        return index % size;
+    }
+
+    @Override
+    public int indexToJ(int index) {
+        return index / size;
+    }
+
     private boolean isValidIndex(int i, int j) {
         return i >= 0 && i < size && j >= 0 && j < size;
     }
